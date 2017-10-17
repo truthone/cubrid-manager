@@ -25,6 +25,10 @@
  * POSSIBILITY OF SUCH DAMAGE.
  * 
  */
+
+/* [한진실]
+*  첫PR하기
+*/
 package com.cubrid.cubridquery.ui;
 
 import org.eclipse.jface.dialogs.IDialogSettings;
