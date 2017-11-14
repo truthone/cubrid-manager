@@ -100,13 +100,10 @@ import com.cubrid.cubridmanager.ui.workspace.dialog.ChooseModeDialog;
 /**
  *
  * The workbench window advisor object is created in response to a workbench
-<<<<<<< Updated upstream
- * window being created (one per window), and is used to configure the window.
- * -
-=======
+ * 
  * window being created (one per window) and is used to configure the window.
  * 
->>>>>>> Stashed changes
+ * 
  * @author pangqiren
  * @version 1.0 - 2009-12-23 created by pangqiren
  */
@@ -276,7 +273,7 @@ public class ApplicationWorkbenchWindowAdvisor extends
 						try {
 							Job.getJobManager().cancel(jobFamily);
 						} catch (Exception e) {
-							LOGGER.error("Stopping background jobs was failed.", e);
+							LOGGER.error("Stopping background jobs were failed.", e);
 						}
 					}
 				});
